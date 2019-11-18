@@ -2055,7 +2055,7 @@ This warning can be switched off on the Team > Git > Confirmations and Warnings 
 !ENTRY org.eclipse.m2e.logback.appender 2 0 2019-11-18 04:11:05.767
 !MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
 
-!ENTRY org.eclipse.core.jobs 4 2 2019-11-18 16:04:50.766
+!ENTRY org.eclipse.core.jobs 4 2 2019-11-18 16:06:03.755
 !MESSAGE An internal error occurred during: "Checking out Database-Programming-Project - refs/heads/develop".
 !STACK 0
 java.lang.NullPointerException
