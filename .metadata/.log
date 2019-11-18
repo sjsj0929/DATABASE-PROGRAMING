@@ -2055,9 +2055,20 @@ This warning can be switched off on the Team > Git > Confirmations and Warnings 
 !ENTRY org.eclipse.m2e.logback.appender 2 0 2019-11-18 04:11:05.767
 !MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
 
-!ENTRY org.eclipse.core.jobs 4 2 2019-11-18 16:06:03.755
+!ENTRY org.eclipse.core.jobs 4 2 2019-11-18 16:10:40.948
 !MESSAGE An internal error occurred during: "Checking out Database-Programming-Project - refs/heads/develop".
 !STACK 0
 java.lang.NullPointerException
 	at org.eclipse.egit.ui.internal.branch.BranchOperationUI$CheckoutJob.run(BranchOperationUI.java:275)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.team.core 4 0 2019-11-18 16:11:50.588
+!MESSAGE No provider registered for dbp0107.
+!STACK 1
+org.eclipse.team.core.TeamException: No provider registered for dbp0107.
+	at org.eclipse.team.core.RepositoryProvider.unmap(RepositoryProvider.java:289)
+	at org.eclipse.egit.core.op.DisconnectProviderOperation.execute(DisconnectProviderOperation.java:63)
+	at org.eclipse.egit.core.internal.job.JobUtil$1.run(JobUtil.java:55)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.team.core 4 0 2019-11-18 16:11:50.588
+!MESSAGE No provider registered for dbp0107.
