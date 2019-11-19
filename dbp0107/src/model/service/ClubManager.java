@@ -67,7 +67,7 @@ public class ClubManager {
 	public Club showDetail(int club_no) {
 		return clubDAO.showDetail(club_no);
 	}
-	public List<Club> clubList() throws SQLException {
+	public List<Club> showClubList() throws SQLException {
 		return clubDAO.clubList();
 	}
 	

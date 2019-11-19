@@ -27,7 +27,7 @@
 			<br>
 			<table style="background-color: #E5DFD2">
 				<tr>
-					<td width="200" align="ecnter" bgcolor="C9BDA2"></td>
+					<td width="200" align="center" bgcolor="C9BDA2"></td>
 				</tr>
 			</table>
 			

@@ -14,7 +14,7 @@ public class ClubDAO {
 	
 	/* 새로운 Club 생성 */
 	public Club create(Club club) throws SQLException {
-		String sql = "INSERT INTO Club (club_no, deptartment_no, club_name, title, contents, createtime)"
+		String sql = "INSERT INTO CLUB (club_no, deptartment_no, club_name, title, contents, createtime)"
 				+ "VALUES (club_seq.NEXTVAL, ?, ?, ?, ?, SYSDATE)";
 		Object[] param = new Object[] {club.getDepartment_no(), club.getClub_name(), club.getTitle(), club.getContents()};
 		jdbcUtil.setSqlAndParameters(sql, param);
@@ -88,7 +88,7 @@ public class ClubDAO {
 	
 	/* 기존 Club 삭제 */
 	public int remove(int club_no) throws SQLException {
-		String sql = "DELETE FROM Club WHERE club_no=?";		
+		String sql = "DELETE FROM CLUB WHERE club_no=?";		
 		jdbcUtil.setSqlAndParameters(sql, new Object[] {club_no});	// JDBCUtil에 delete문과 매개 변수 설정
 
 		try {				
@@ -107,8 +107,8 @@ public class ClubDAO {
 	
 	/* DB에 저장된 club 목록들을 불러옴  */
 	public List<Club> clubList() throws SQLException {
-        String sql = "SELECT club_no, deptartment_no, club_name"
-        		   + "FROM Club "
+        String sql = "SELECT club_no, club_name, dept_name"
+        		   + "FROM CLUB c LEFT OUTER JOIN DEPARTMENT d ON c.department_no = d.department_no "
         		   + "ORDER BY club_no";        
 		jdbcUtil.setSqlAndParameters(sql, null);		// JDBCUtil에 query문 설정
 					
@@ -118,11 +118,8 @@ public class ClubDAO {
 			while (rs.next()) {
 				Club club = new Club(			// Community 객체를 생성하여 현재 행의 정보를 저장
 						rs.getInt("club_no"),
-						rs.getInt("deptartment_no"),
 						rs.getString("club_name"),
-						null,
-						null,
-						null);
+						rs.getString("dept_name"));
 				clubList.add(club);				// List에 Community 객체 저장
 			}		
 			return clubList;					
@@ -137,7 +134,7 @@ public class ClubDAO {
 	
 	/* clubNo로 해당 게시글의 상세 내용을 불러옴   Club 도메인 클래스에 저장해서 반환 */
 	public Club showDetail(int club_no) {
-		String sql = "SELECT deptartment_no, club_no, club_name, title, contents, createtime FROM Club "
+		String sql = "SELECT deptartment_no, club_no, club_name, title, contents, createtime FROM CLUB "
      				+ "WHERE clubNo = ?";              
 		jdbcUtil.setSqlAndParameters(sql, new Object[] {club_no});	// JDBCUtil에 query문과 매개 변수 설정
 		Club club = null;
@@ -165,7 +162,7 @@ public class ClubDAO {
 	/* userID를 기반으로  학과 관련 추천 동아리를 불러옴    Club 도메인 클래스에 저장해서 반환 */
 	public Club showRecommend(int customer_no) {
 		String sql = "SELECT club_name, title, contents, createtime "
-					+ "FROM Club c LEFT OUTER JOIN Customer c1 ON c.deptartment_no = c1.deptartment_no "
+					+ "FROM CLUB c LEFT OUTER JOIN CUSTOMER c1 ON c.deptartment_no = c1.deptartment_no "
      				+ "WHERE id = ?";              
 		jdbcUtil.setSqlAndParameters(sql, new Object[] {customer_no});	// JDBCUtil에 query문과 매개 변수 설정
 		Club club = null;
@@ -190,7 +187,7 @@ public class ClubDAO {
 	}
 	
 	public boolean existingClub(int club_no) throws SQLException {
-		String sql = "SELECT count(*) FROM Club WHERE club_no=?";      
+		String sql = "SELECT count(*) FROM CLUB WHERE club_no=?";      
 		jdbcUtil.setSqlAndParameters(sql, new Object[] {club_no});	// JDBCUtil에 query문과 매개 변수 설정
 
 		try {
@@ -209,7 +206,7 @@ public class ClubDAO {
 	
 	public Club findClub(int club_no) throws SQLException {
         String sql = "SELECT dept_no, deptartment_no, club_name "
-        			+ "FROM Club "
+        			+ "FROM CLUB "
         			+ "WHERE club_no=? ";              
 		jdbcUtil.setSqlAndParameters(sql, new Object[] {club_no});	// JDBCUtil에 query문과 매개 변수 설정
 
@@ -235,7 +232,7 @@ public class ClubDAO {
 	
 	public List<Club> findClubList() throws SQLException {
 		String sql = "SELECT club_no, deptartment_no, club_name"
-     		   + "FROM Club "
+     		   + "FROM CLUB "
      		   + "ORDER BY club_no";        
 		jdbcUtil.setSqlAndParameters(sql, null);		// JDBCUtil에 query문 설정
 					
@@ -268,7 +265,7 @@ public class ClubDAO {
 	 */
 	public List<Club> findClubList(int currentPage, int countPerPage) throws SQLException {
         String sql = "SELECT club_no, deptartment_no, club_name " 
-        		   + "FROM Club "
+        		   + "FROM CLUB "
         		   + "ORDER BY club_no";
 		jdbcUtil.setSqlAndParameters(sql, null,					// JDBCUtil에 query문 설정
 				ResultSet.TYPE_SCROLL_INSENSITIVE,				// cursor scroll 가능
