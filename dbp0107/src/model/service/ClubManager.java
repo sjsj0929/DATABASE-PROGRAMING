@@ -46,6 +46,8 @@ public class ClubManager {
 		}		
 		return club;
 	}
+	
+	/* find 부분 추후 수정 */
 
 	public List<Club> findClubList() throws SQLException {
 			return clubDAO.findClubList();

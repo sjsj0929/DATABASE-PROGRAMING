@@ -204,8 +204,9 @@ public class ClubDAO {
 		return false;
 	}
 	
+	/* findClub & findClubList 부분은 수정이 필요!!!!! 잊지말자 */
 	public Club findClub(int club_no) throws SQLException {
-        String sql = "SELECT dept_no, deptartment_no, club_name "
+        String sql = "SELECT deptartment_no, club_name "
         			+ "FROM CLUB "
         			+ "WHERE club_no=? ";              
 		jdbcUtil.setSqlAndParameters(sql, new Object[] {club_no});	// JDBCUtil에 query문과 매개 변수 설정
