@@ -602,3 +602,177 @@
 2019-11-18 15:56:19,473 [Worker-22: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\choiyewon\Desktop\dbp-project\Database-Programming-Project\dbp0107\src\main\resources
 2019-11-18 15:56:19,476 [Worker-22: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
 2019-11-18 15:56:19,478 [Worker-22: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\choiyewon\Desktop\dbp-project\Database-Programming-Project\dbp0107\src\test\resources
+2019-11-19 06:00:39,745 [Worker-143: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-11-19 06:00:39,751 [Worker-143: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\choiyewon\Desktop\dbp-project\Database-Programming-Project\dbp0107\src\main\resources
+2019-11-19 06:00:39,753 [Worker-143: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-11-19 06:00:39,755 [Worker-143: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\choiyewon\Desktop\dbp-project\Database-Programming-Project\dbp0107\src\test\resources
+2019-11-19 06:00:41,395 [Worker-156: Computing Git status for repository Database-Programming-Project] ERROR o.e.jgit.ignore.FastIgnoreRule - Not closed bracket?
+org.eclipse.jgit.errors.InvalidPatternException: Not closed bracket?
+	at org.eclipse.jgit.ignore.internal.Strings.convertGlob(Strings.java:444) ~[na:na]
+	at org.eclipse.jgit.ignore.internal.WildCardMatcher.<init>(WildCardMatcher.java:64) ~[na:na]
+	at org.eclipse.jgit.ignore.internal.PathMatcher.createNameMatcher0(PathMatcher.java:178) ~[na:na]
+	at org.eclipse.jgit.ignore.internal.PathMatcher.createPathMatcher(PathMatcher.java:136) ~[na:na]
+	at org.eclipse.jgit.ignore.FastIgnoreRule.<init>(FastIgnoreRule.java:129) ~[na:na]
+	at org.eclipse.jgit.ignore.IgnoreNode.parse(IgnoreNode.java:115) ~[na:na]
+	at org.eclipse.jgit.treewalk.WorkingTreeIterator$PerDirectoryIgnoreNode.load(WorkingTreeIterator.java:1341) ~[na:na]
+	at org.eclipse.jgit.treewalk.WorkingTreeIterator.getIgnoreNode(WorkingTreeIterator.java:774) ~[na:na]
+	at org.eclipse.jgit.treewalk.WorkingTreeIterator.isDirectoryIgnored(WorkingTreeIterator.java:1606) ~[na:na]
+	at org.eclipse.jgit.treewalk.WorkingTreeIterator.isDirectoryIgnored(WorkingTreeIterator.java:1584) ~[na:na]
+	at org.eclipse.jgit.treewalk.WorkingTreeIterator.isEntryIgnored(WorkingTreeIterator.java:756) ~[na:na]
+	at org.eclipse.jgit.treewalk.WorkingTreeIterator.isEntryIgnored(WorkingTreeIterator.java:716) ~[na:na]
+	at org.eclipse.jgit.treewalk.WorkingTreeIterator.isEntryIgnored(WorkingTreeIterator.java:703) ~[na:na]
+	at org.eclipse.jgit.treewalk.filter.IndexDiffFilter.include(IndexDiffFilter.java:170) ~[na:na]
+	at org.eclipse.jgit.treewalk.filter.TreeFilter.matchFilter(TreeFilter.java:228) ~[na:na]
+	at org.eclipse.jgit.treewalk.filter.AndTreeFilter$List.matchFilter(AndTreeFilter.java:190) ~[na:na]
+	at org.eclipse.jgit.treewalk.TreeWalk.next(TreeWalk.java:853) ~[na:na]
+	at org.eclipse.jgit.lib.IndexDiff.diff(IndexDiff.java:446) ~[na:na]
+	at org.eclipse.egit.core.internal.indexdiff.IndexDiffCacheEntry.calcIndexDiffDataFull(IndexDiffCacheEntry.java:675) ~[na:na]
+	at org.eclipse.egit.core.internal.indexdiff.IndexDiffCacheEntry.access$8(IndexDiffCacheEntry.java:663) ~[na:na]
+	at org.eclipse.egit.core.internal.indexdiff.IndexDiffCacheEntry$4.run(IndexDiffCacheEntry.java:415) ~[na:na]
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63) ~[org.eclipse.core.jobs_3.10.300.v20190215-2048.jar:na]
+2019-11-19 06:02:08,050 [Worker-155: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-11-19 06:02:08,052 [Worker-155: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\choiyewon\Desktop\dbp-project\Database-Programming-Project\dbp0107\src\main\resources
+2019-11-19 06:02:08,054 [Worker-155: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-11-19 06:02:08,056 [Worker-155: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\choiyewon\Desktop\dbp-project\Database-Programming-Project\dbp0107\src\test\resources
+2019-11-19 06:04:21,309 [Worker-160: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-11-19 06:04:21,311 [Worker-160: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\choiyewon\Desktop\dbp-project\Database-Programming-Project\dbp0107\src\main\resources
+2019-11-19 06:04:21,315 [Worker-160: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-11-19 06:04:21,316 [Worker-160: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\choiyewon\Desktop\dbp-project\Database-Programming-Project\dbp0107\src\test\resources
+2019-11-19 06:04:48,085 [Worker-160: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-11-19 06:04:48,087 [Worker-160: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\choiyewon\Desktop\dbp-project\Database-Programming-Project\dbp0107\src\main\resources
+2019-11-19 06:04:48,089 [Worker-160: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-11-19 06:04:48,093 [Worker-160: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\choiyewon\Desktop\dbp-project\Database-Programming-Project\dbp0107\src\test\resources
+2019-11-19 20:06:29,144 [Worker-4: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2019-11-19 20:07:01,926 [Worker-8: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-11-19 20:07:01,929 [Worker-8: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\choiyewon\Desktop\dbp-project\Database-Programming-Project\dbp0107\src\main\resources
+2019-11-19 20:07:01,932 [Worker-8: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-11-19 20:07:01,933 [Worker-8: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\choiyewon\Desktop\dbp-project\Database-Programming-Project\dbp0107\src\test\resources
+2019-11-19 20:16:35,990 [Worker-18: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-11-19 20:16:35,992 [Worker-18: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\choiyewon\Desktop\dbp-project\Database-Programming-Project\dbp0107\src\main\resources
+2019-11-19 20:16:35,994 [Worker-18: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-11-19 20:16:35,995 [Worker-18: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\choiyewon\Desktop\dbp-project\Database-Programming-Project\dbp0107\src\test\resources
+2019-11-19 20:23:46,969 [Worker-2: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2019-11-19 20:24:07,575 [Worker-10: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-11-19 20:24:07,578 [Worker-10: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\choiyewon\Desktop\dbp-project\Database-Programming-Project\dbp0107\src\main\resources
+2019-11-19 20:24:07,583 [Worker-10: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-11-19 20:24:07,585 [Worker-10: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\choiyewon\Desktop\dbp-project\Database-Programming-Project\dbp0107\src\test\resources
+2019-11-19 20:28:58,252 [Worker-11: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-11-19 20:28:58,256 [Worker-11: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\choiyewon\Desktop\dbp-project\Database-Programming-Project\dbp0107\src\main\resources
+2019-11-19 20:28:58,259 [Worker-11: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-11-19 20:28:58,262 [Worker-11: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\choiyewon\Desktop\dbp-project\Database-Programming-Project\dbp0107\src\test\resources
+2019-11-19 22:05:54,989 [Worker-23: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-11-19 22:05:54,992 [Worker-23: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\choiyewon\Desktop\dbp-project\Database-Programming-Project\dbp0107\src\main\resources
+2019-11-19 22:05:54,995 [Worker-23: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-11-19 22:05:54,997 [Worker-23: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\choiyewon\Desktop\dbp-project\Database-Programming-Project\dbp0107\src\test\resources
+2019-11-19 22:06:19,079 [Worker-21: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-11-19 22:06:19,081 [Worker-21: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\choiyewon\Desktop\dbp-project\Database-Programming-Project\dbp0107\src\main\resources
+2019-11-19 22:06:19,086 [Worker-21: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-11-19 22:06:19,088 [Worker-21: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\choiyewon\Desktop\dbp-project\Database-Programming-Project\dbp0107\src\test\resources
+2019-11-19 22:14:30,057 [Worker-26: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-11-19 22:14:30,060 [Worker-26: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\choiyewon\Desktop\dbp-project\Database-Programming-Project\dbp0107\src\main\resources
+2019-11-19 22:14:30,064 [Worker-26: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-11-19 22:14:30,068 [Worker-26: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\choiyewon\Desktop\dbp-project\Database-Programming-Project\dbp0107\src\test\resources
+2019-11-19 22:53:30,515 [Worker-39: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-11-19 22:53:30,631 [Worker-39: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\choiyewon\Desktop\dbp-project\Database-Programming-Project\dbp0107\src\main\resources
+2019-11-19 22:53:30,641 [Worker-39: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-11-19 22:53:30,644 [Worker-39: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\choiyewon\Desktop\dbp-project\Database-Programming-Project\dbp0107\src\test\resources
+2019-11-19 22:54:22,514 [Worker-42: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-11-19 22:54:22,518 [Worker-42: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\choiyewon\Desktop\dbp-project\Database-Programming-Project\dbp0107\src\main\resources
+2019-11-19 22:54:22,523 [Worker-42: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-11-19 22:54:22,526 [Worker-42: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\choiyewon\Desktop\dbp-project\Database-Programming-Project\dbp0107\src\test\resources
+2019-11-20 00:43:18,055 [Worker-67: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-11-20 00:43:18,061 [Worker-67: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\choiyewon\Desktop\dbp-project\Database-Programming-Project\dbp0107\src\main\resources
+2019-11-20 00:43:18,064 [Worker-67: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-11-20 00:43:18,066 [Worker-67: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\choiyewon\Desktop\dbp-project\Database-Programming-Project\dbp0107\src\test\resources
+2019-11-20 01:00:20,801 [Worker-71: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-11-20 01:00:20,804 [Worker-71: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\choiyewon\Desktop\dbp-project\Database-Programming-Project\dbp0107\src\main\resources
+2019-11-20 01:00:20,806 [Worker-71: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-11-20 01:00:20,808 [Worker-71: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\choiyewon\Desktop\dbp-project\Database-Programming-Project\dbp0107\src\test\resources
+2019-11-20 01:05:14,318 [Worker-73: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-11-20 01:05:14,320 [Worker-73: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\choiyewon\Desktop\dbp-project\Database-Programming-Project\dbp0107\src\main\resources
+2019-11-20 01:05:14,323 [Worker-73: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-11-20 01:05:14,325 [Worker-73: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\choiyewon\Desktop\dbp-project\Database-Programming-Project\dbp0107\src\test\resources
+2019-11-20 01:05:32,161 [Worker-62: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-11-20 01:05:32,163 [Worker-62: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\choiyewon\Desktop\dbp-project\Database-Programming-Project\dbp0107\src\main\resources
+2019-11-20 01:05:32,165 [Worker-62: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-11-20 01:05:32,168 [Worker-62: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\choiyewon\Desktop\dbp-project\Database-Programming-Project\dbp0107\src\test\resources
+2019-11-20 01:16:48,258 [Worker-77: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-11-20 01:16:48,262 [Worker-77: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\choiyewon\Desktop\dbp-project\Database-Programming-Project\dbp0107\src\main\resources
+2019-11-20 01:16:48,265 [Worker-77: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-11-20 01:16:48,268 [Worker-77: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\choiyewon\Desktop\dbp-project\Database-Programming-Project\dbp0107\src\test\resources
+2019-11-20 01:18:52,610 [Worker-77: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-11-20 01:18:52,613 [Worker-77: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\choiyewon\Desktop\dbp-project\Database-Programming-Project\dbp0107\src\main\resources
+2019-11-20 01:18:52,615 [Worker-77: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-11-20 01:18:52,617 [Worker-77: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\choiyewon\Desktop\dbp-project\Database-Programming-Project\dbp0107\src\test\resources
+2019-11-20 01:29:03,025 [Worker-79: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-11-20 01:29:03,027 [Worker-79: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\choiyewon\Desktop\dbp-project\Database-Programming-Project\dbp0107\src\main\resources
+2019-11-20 01:29:03,029 [Worker-79: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-11-20 01:29:03,032 [Worker-79: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\choiyewon\Desktop\dbp-project\Database-Programming-Project\dbp0107\src\test\resources
+2019-11-20 01:30:28,961 [Worker-82: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-11-20 01:30:28,963 [Worker-82: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\choiyewon\Desktop\dbp-project\Database-Programming-Project\dbp0107\src\main\resources
+2019-11-20 01:30:28,970 [Worker-82: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-11-20 01:30:28,972 [Worker-82: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\choiyewon\Desktop\dbp-project\Database-Programming-Project\dbp0107\src\test\resources
+2019-11-20 01:31:20,734 [Worker-80: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-11-20 01:31:20,736 [Worker-80: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\choiyewon\Desktop\dbp-project\Database-Programming-Project\dbp0107\src\main\resources
+2019-11-20 01:31:20,739 [Worker-80: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-11-20 01:31:20,740 [Worker-80: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\choiyewon\Desktop\dbp-project\Database-Programming-Project\dbp0107\src\test\resources
+2019-11-20 01:32:09,445 [Worker-79: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-11-20 01:32:09,448 [Worker-79: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\choiyewon\Desktop\dbp-project\Database-Programming-Project\dbp0107\src\main\resources
+2019-11-20 01:32:09,449 [Worker-79: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-11-20 01:32:09,451 [Worker-79: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\choiyewon\Desktop\dbp-project\Database-Programming-Project\dbp0107\src\test\resources
+2019-11-20 01:34:00,458 [Worker-85: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-11-20 01:34:00,461 [Worker-85: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\choiyewon\Desktop\dbp-project\Database-Programming-Project\dbp0107\src\main\resources
+2019-11-20 01:34:00,463 [Worker-85: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-11-20 01:34:00,465 [Worker-85: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\choiyewon\Desktop\dbp-project\Database-Programming-Project\dbp0107\src\test\resources
+2019-11-20 01:34:06,332 [Worker-83: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-11-20 01:34:06,335 [Worker-83: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\choiyewon\Desktop\dbp-project\Database-Programming-Project\dbp0107\src\main\resources
+2019-11-20 01:34:06,337 [Worker-83: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-11-20 01:34:06,339 [Worker-83: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\choiyewon\Desktop\dbp-project\Database-Programming-Project\dbp0107\src\test\resources
+2019-11-20 02:39:52,524 [Worker-93: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-11-20 02:39:52,527 [Worker-93: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\choiyewon\Desktop\dbp-project\Database-Programming-Project\dbp0107\src\main\resources
+2019-11-20 02:39:52,529 [Worker-93: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-11-20 02:39:52,531 [Worker-93: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\choiyewon\Desktop\dbp-project\Database-Programming-Project\dbp0107\src\test\resources
+2019-11-20 02:40:16,694 [Worker-100: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-11-20 02:40:16,697 [Worker-100: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\choiyewon\Desktop\dbp-project\Database-Programming-Project\dbp0107\src\main\resources
+2019-11-20 02:40:16,700 [Worker-100: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-11-20 02:40:16,702 [Worker-100: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\choiyewon\Desktop\dbp-project\Database-Programming-Project\dbp0107\src\test\resources
+2019-11-20 02:49:21,329 [Worker-93: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-11-20 02:49:21,332 [Worker-93: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\choiyewon\Desktop\dbp-project\Database-Programming-Project\dbp0107\src\main\resources
+2019-11-20 02:49:21,335 [Worker-93: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-11-20 02:49:21,337 [Worker-93: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\choiyewon\Desktop\dbp-project\Database-Programming-Project\dbp0107\src\test\resources
+2019-11-20 02:50:11,131 [Worker-105: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-11-20 02:50:11,133 [Worker-105: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\choiyewon\Desktop\dbp-project\Database-Programming-Project\dbp0107\src\main\resources
+2019-11-20 02:50:11,139 [Worker-105: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-11-20 02:50:11,142 [Worker-105: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\choiyewon\Desktop\dbp-project\Database-Programming-Project\dbp0107\src\test\resources
+2019-11-20 03:00:43,175 [Worker-104: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-11-20 03:00:43,177 [Worker-104: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\choiyewon\Desktop\dbp-project\Database-Programming-Project\dbp0107\src\main\resources
+2019-11-20 03:00:43,179 [Worker-104: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-11-20 03:00:43,182 [Worker-104: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\choiyewon\Desktop\dbp-project\Database-Programming-Project\dbp0107\src\test\resources
+2019-11-20 03:00:59,888 [Worker-109: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-11-20 03:00:59,890 [Worker-109: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\choiyewon\Desktop\dbp-project\Database-Programming-Project\dbp0107\src\main\resources
+2019-11-20 03:00:59,891 [Worker-109: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-11-20 03:00:59,893 [Worker-109: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\choiyewon\Desktop\dbp-project\Database-Programming-Project\dbp0107\src\test\resources
+2019-11-20 03:01:42,152 [Worker-104: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-11-20 03:01:42,154 [Worker-104: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\choiyewon\Desktop\dbp-project\Database-Programming-Project\dbp0107\src\main\resources
+2019-11-20 03:01:42,156 [Worker-104: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-11-20 03:01:42,158 [Worker-104: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\choiyewon\Desktop\dbp-project\Database-Programming-Project\dbp0107\src\test\resources
+2019-11-20 03:03:41,010 [Worker-110: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-11-20 03:03:41,012 [Worker-110: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\choiyewon\Desktop\dbp-project\Database-Programming-Project\dbp0107\src\main\resources
+2019-11-20 03:03:41,017 [Worker-110: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-11-20 03:03:41,019 [Worker-110: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\choiyewon\Desktop\dbp-project\Database-Programming-Project\dbp0107\src\test\resources
+2019-11-20 03:04:47,185 [Worker-109: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-11-20 03:04:47,187 [Worker-109: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\choiyewon\Desktop\dbp-project\Database-Programming-Project\dbp0107\src\main\resources
+2019-11-20 03:04:47,188 [Worker-109: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-11-20 03:04:47,191 [Worker-109: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\choiyewon\Desktop\dbp-project\Database-Programming-Project\dbp0107\src\test\resources
+2019-11-20 23:28:59,926 [Worker-231: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-11-20 23:28:59,936 [Worker-231: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\choiyewon\Desktop\dbp-project\Database-Programming-Project\dbp0107\src\main\resources
+2019-11-20 23:28:59,940 [Worker-231: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-11-20 23:28:59,944 [Worker-231: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\choiyewon\Desktop\dbp-project\Database-Programming-Project\dbp0107\src\test\resources
+2019-11-20 23:31:19,167 [Worker-234: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-11-20 23:31:19,170 [Worker-234: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\choiyewon\Desktop\dbp-project\Database-Programming-Project\dbp0107\src\main\resources
+2019-11-20 23:31:19,172 [Worker-234: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-11-20 23:31:19,174 [Worker-234: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\choiyewon\Desktop\dbp-project\Database-Programming-Project\dbp0107\src\test\resources
+2019-11-20 23:31:43,768 [Worker-237: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-11-20 23:31:43,771 [Worker-237: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\choiyewon\Desktop\dbp-project\Database-Programming-Project\dbp0107\src\main\resources
+2019-11-20 23:31:43,774 [Worker-237: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-11-20 23:31:43,776 [Worker-237: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\choiyewon\Desktop\dbp-project\Database-Programming-Project\dbp0107\src\test\resources
