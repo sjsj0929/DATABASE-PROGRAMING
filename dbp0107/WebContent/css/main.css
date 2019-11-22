@@ -1,0 +1,33 @@
+	header {
+		text-align: center;
+	}
+	#menu {
+		height: 50px;
+		width:	3000px;
+	}
+	#menu ul li{
+		display: inline-block;
+		list-style: none;
+		color: white;
+		background-color: #a1304e;
+		flot: left;
+		line-height : 30px;
+		vertical-align: middle;
+		text-align: center;
+		border-left: 1px solid #999;
+	}
+	#menu .menulink {
+		text-decoration: none;
+		color: white;
+		display: block;
+		width: 400px;
+		font-size: 12px;
+		font-weight: bold;
+	}
+	#menu .menulink:hover {
+		color: white;
+		background-color: #747474;
+	}
+	.text {
+		font-family: "°íµñ";
+	}
